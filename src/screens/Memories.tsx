@@ -1,11 +1,14 @@
 import React from 'react'
-import { Text, View } from 'react-native';
-
+import { Text, HStack, Switch, useColorMode, Center, VStack } from 'native-base'
 
 export default function Memories() {
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>Memories!</Text>
-      </View>
+      <Center
+        _dark={{ bg:'blueGray.900'}}
+        _light={{ bg: 'blueGray.50'}}
+        px={4}
+        flex={1}>
+          <Text>Memories!!</Text>
+      </Center>
     );
   }
