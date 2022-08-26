@@ -2,8 +2,8 @@ import { extendTheme } from 'native-base'
 
 const config = {
   useSystemColorMode: false,
-  initialColorMode: 'dark',
-};
+  initialColorMode: 'dark'
+}
 
 const colors = {
   primary: {
@@ -18,6 +18,6 @@ const colors = {
     800: '#223044',
     900: '#111822'
   }
-};
+}
 
 export default extendTheme({ config, colors })
